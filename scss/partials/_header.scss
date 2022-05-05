@@ -1,3 +1,5 @@
+@import "../variables/variables";
+
 .boton-buscar{
     position: absolute;
     top: 11%;
@@ -17,7 +19,7 @@
 }
 
 .icono{
-    color: #7d1eb4;
+    color: $color-secundario;
     float: right;
     width: 40px;
     font-size: 1.3rem;
