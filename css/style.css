@@ -40,3 +40,38 @@ input {
   transition: 0.5s ease;
   line-height: 40px;
   color: #fff; }
+
+.navegacion {
+  background-color: darkmagenta;
+  width: 100%; }
+  .navegacion ul {
+    list-style: none; }
+
+.menu > li {
+  position: relative;
+  display: inline-block; }
+  .menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    font-family: verdana; }
+    .menu > li > a:hover {
+      background-color: darkorchid; }
+
+.submenu {
+  position: absolute;
+  background: darkviolet;
+  width: 150%;
+  display: none; }
+  .submenu li a {
+    display: block;
+    padding: 15px;
+    color: white;
+    font-family: verdana;
+    text-decoration: none; }
+    .submenu li a:hover {
+      background-color: darkorchid; }
+
+.menu li:hover .submenu {
+  display: block; }

@@ -1,0 +1,47 @@
+@import "../variables/variables";
+
+.navegacion{
+    background-color: $color-primario;
+    width: 100%;
+    & ul{
+        list-style: none;
+    }
+}
+
+.menu{
+    &>li{
+        position: relative;
+        display: inline-block;
+        &>a{
+            display: block;
+            padding: 15px 20px;
+            color: white;
+            text-decoration: none;
+            font-family: $tipo-de-letra;
+            &:hover{
+                background-color: $color-hover;
+            }
+        }
+    }
+}
+
+.submenu{
+    position: absolute;
+    background: $color-secundario;
+    width: 150%;
+    display: none;
+    & li a{
+        display: block;
+        padding: 15px;
+        color: white;
+        font-family: $tipo-de-letra;
+        text-decoration: none;
+        &:hover{
+            background-color: $color-hover;
+        }
+    }
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
