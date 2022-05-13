@@ -4,3 +4,8 @@
     display: flex;
     justify-content: center;  
 }
+
+@mixin fuente {
+    text-decoration: none;
+    font-family: $tipo-de-letra;
+}

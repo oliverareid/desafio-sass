@@ -16,8 +16,7 @@
             display: block;
             padding: 15px 20px;
             color: white;
-            text-decoration: none;
-            font-family: $tipo-de-letra;
+            @include fuente;
             &:hover{
                 background-color: $color-terciario
             }
@@ -34,8 +33,7 @@
         display: block;
         padding: 15px;
         color: white;
-        font-family: $tipo-de-letra;
-        text-decoration: none;
+        @include fuente;
         &:hover{
             background-color: $color-terciario;
         }
