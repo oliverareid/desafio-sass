@@ -1,8 +1,10 @@
 @import "../variables/variables";
+@import "../sass2/mixins";
+@import "../sass2/maps";
 
 .footer-clean {
     padding: 50px 0;
-    background-color: #fff;
+    background-color: white;
     color: #4b4c4d;
     & h3{
         margin-top: 0;
@@ -47,27 +49,28 @@
     }
 }
 
-@media (max-width:767px) {
-    .footer-clean .item {
+
+@include breakpoint(md){
+    .footer-clean .item{
         text-align: center;
         padding-bottom: 20px;
     }
 }
 
-@media (max-width: 768px) {
-    .footer-clean .item.social {
+@include breakpoint(md){
+    .footer-clean .item.social{
         text-align: center;
     }
 }
 
-@media (max-width:991px) {
-    .footer-clean .item.social>a {
+@include breakpoint(lg){
+    .footer-clean .item-social>a{
         margin-top: 40px;
     }
 }
 
-@media (max-width:767px) {
-    .footer-clean .item.social>a {
+@include breakpoint(md){
+    .footer-clean .item-social>a{
         margin-top: 10px;
     }
 }
