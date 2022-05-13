@@ -1,0 +1,26 @@
+@import "../variables/variables";
+
+.novedades {
+    background-image: linear-gradient(antiquewhite, rgb(200, 151, 212), antiquewhite);
+    font-family: $tipo-de-letra;
+    padding-bottom: 20px;
+    & article{
+        position: relative;
+        padding-top: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-evenly;
+        & img{
+            max-width: 15%;
+            max-height: 15%;
+            padding: 1px;
+            border: 2px double darkmagenta;
+            transition: max-width, max-height, 1s;
+            &:hover{
+                max-height: 17%;
+                max-width: 17%;
+            }
+        }
+    }
+}

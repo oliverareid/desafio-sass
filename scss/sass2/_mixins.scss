@@ -1,0 +1,6 @@
+@import "../variables/variables";
+
+@mixin centrar {
+    display: flex;
+    justify-content: center;  
+}

@@ -1,0 +1,15 @@
+@import "../variables/variables";
+
+h1 {
+    margin-bottom: 5px;
+}
+
+p {
+    text-align: justify;
+    font-family: $tipo-de-letra;
+}
+
+.novedades1 {
+    background-color: $color-terciario;
+    border-radius: 20px;
+}

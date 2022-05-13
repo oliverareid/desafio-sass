@@ -19,7 +19,7 @@
             text-decoration: none;
             font-family: $tipo-de-letra;
             &:hover{
-                background-color: $color-hover;
+                background-color: $color-terciario
             }
         }
     }
@@ -37,7 +37,7 @@
         font-family: $tipo-de-letra;
         text-decoration: none;
         &:hover{
-            background-color: $color-hover;
+            background-color: $color-terciario;
         }
     }
 }

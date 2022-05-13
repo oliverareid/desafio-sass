@@ -26,8 +26,7 @@
     height: 40px;
     border-radius: 50%;
     background: #2F3640;
-    display: flex;
-    justify-content: center;
+    @include center;
     align-items: center;
     transition: 0.4s;
     cursor: pointer;

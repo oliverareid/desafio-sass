@@ -1,3 +1,11 @@
-@import "../scss/partials/header";
-@import "../scss/partials/nav";
-@import "../scss/variables/variables"
+@import "partials/header";
+@import "partials/nav";
+@import "variables/variables";
+@import "partials/main";
+@import "partials/section";
+@import "partials/footer";
+@import "sass2/condicionales";
+@import "sass2/extend";
+@import "sass2/maps";
+@import "sass2/mixins";
+@import "sass2/operaciones";
