@@ -83,7 +83,7 @@ p {
   text-align: justify;
   font-family: "Open Sans", sans-serif; }
 
-.prueba {
+.cartel-novedades {
   height: 7rem;
   padding: 5px;
   border: double 4px black;
@@ -94,7 +94,7 @@ p {
   justify-content: center;
   align-items: center;
   overflow: hidden; }
-  .prueba div {
+  .cartel-novedades div {
     height: 6rem;
     padding: 5px;
     background-color: darkviolet;
@@ -103,16 +103,16 @@ p {
     align-items: center;
     border-radius: 17px;
     z-index: 10; }
-    .prueba div h2 {
+    .cartel-novedades div h2 {
       color: white; }
-  .prueba::before {
+  .cartel-novedades::before {
     content: '';
     position: absolute;
     width: 130%;
     height: 50%;
     background: linear-gradient(#00ccff, #d400d4);
     animation: rotar 4s linear infinite; }
-  .prueba::after {
+  .cartel-novedades::after {
     content: '';
     position: absolute;
     inset: 4px;
