@@ -10,7 +10,52 @@ p {
     font-family: $tipo-de-letra;
 }
 
-.novedades1 {
-    background-color: $color-terciario;
+.prueba{
+    height: 7rem;
+    padding: 5px;
+    border: double 4px black;
+    margin: 20px 10px 20px 10px;
     border-radius: 20px;
+    position: relative;
+    @include centrar;
+    align-items: center;
+    overflow: hidden;
+    & div{
+        height: 6rem;
+        padding: 5px;
+        background-color: $color-secundario;
+        @include centrar;
+        align-items: center;
+        border-radius: 17px;
+        z-index: 10;
+        & h2{
+            color: white;
+        }
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        width: 130%;
+        height: 50%;
+        background: linear-gradient(#00ccff, #d400d4);
+        animation: rotar 4s linear infinite;
+    }
+    &::after{
+        content: '';
+        position: absolute;
+        inset: 4px;
+        background: $color-secundario;
+        border-radius: 16px; 
+    }
 }
+
+
+@keyframes rotar{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+

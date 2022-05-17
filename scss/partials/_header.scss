@@ -27,7 +27,7 @@
     height: 40px;
     border-radius: 50%;
     background: #2F3640;
-    @include center;
+    @include centrar;
     align-items: center;
     transition: 0.4s;
     cursor: pointer;
@@ -48,3 +48,4 @@ input{
     line-height: 40px;
     color: #fff;
 }
+
