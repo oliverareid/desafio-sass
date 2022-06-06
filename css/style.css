@@ -213,6 +213,19 @@ p {
 .contacto {
   margin: 20px; }
 
+.conformaciones {
+  border: solid darkviolet;
+  background-color: #9653d4;
+  width: 30%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.claustros {
+  margin-top: 15px;
+  padding-left: 20px; }
+
 .novedades {
   background-image: linear-gradient(antiquewhite, #c897d4, antiquewhite);
   font-family: "Open Sans", sans-serif;

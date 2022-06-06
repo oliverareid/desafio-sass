@@ -163,3 +163,18 @@ p {
 .contacto{
     margin: 20px;
 }
+
+.conformaciones{
+    border: solid $color-secundario;
+    background-color: $color-terciario;
+    width: 30%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.claustros{
+    margin-top: 15px;
+    padding-left: 20px;
+}
