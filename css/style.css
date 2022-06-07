@@ -222,9 +222,28 @@ p {
   justify-content: center;
   align-items: center; }
 
+.conformaciones-anteriores {
+  border: solid grey;
+  background-color: lightgray;
+  width: 30%;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .conformaciones-anteriores a {
+    text-decoration: none;
+    color: black; }
+    .conformaciones-anteriores a:hover {
+      color: darkviolet; }
+
 .claustros {
   margin-top: 15px;
   padding-left: 20px; }
+
+.junta {
+  margin-top: 20px;
+  padding-left: 15%;
+  text-decoration: underline; }
 
 .novedades {
   background-image: linear-gradient(antiquewhite, #c897d4, antiquewhite);
